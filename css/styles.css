@@ -149,11 +149,7 @@ body {
 }
 
 .transition-color {
-  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.transition-background {
-  transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -------------------------HERO----------------------- */
@@ -207,6 +203,10 @@ body {
 
 .under-header-btn:hover {
   background-color: #188ce8;
+}
+
+.transition-background {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -----------------------------SECTIONS-------------------------- */
@@ -393,7 +393,7 @@ body {
 }
 
 .transition-fill {
-  transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ------------------------CLIENTS--------------------------- */
@@ -447,7 +447,7 @@ body {
 }
 
 .transition-border {
-  transition: border 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon {
